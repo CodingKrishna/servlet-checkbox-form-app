@@ -1,0 +1,94 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	min-height: 100vh;
+	background-color: #F9F9F9;
+}
+.container {
+	width: 80%;
+	margin: 20px auto;
+	max-width: 1200px;
+	background-color: #FFF;
+	border: 1px solid #AAA;
+}
+.page-title {
+	margin: 0;
+	padding: 10px 0;
+	color: #FFF;
+	text-align: center;
+	background-color: #435DB7;
+	border-bottom: 1px solid #AAA;
+}
+.sub-title {
+	margin: 0;
+	padding: 5px;
+	color: #435DB7;
+	text-align: center;
+	border-bottom: 1px solid #DDD;
+}
+.form-panel {
+	width: 35%;
+	margin: auto;
+	padding: 15px;
+	min-width: 400px;
+	border: 1px solid #FFF;
+}
+.form-panel label {
+	min-width: 90px;
+	display: inline-block;
+}
+.form-field {
+	outline: none;
+	padding: 5px 8px;
+	border-radius: 3px;
+	border: 2px solid #AAA;
+	margin-bottom: 5px;
+	transition: 0.4s border-color;
+}
+.form-field:FOCUS {
+	border-color: #435DB7;
+}
+.btn {
+	width: 140px;
+	font-size: 14px;
+	cursor: pointer;
+	padding: 5px 10px;
+	border: 1px solid #AAA;
+	transition: 0.4s box-shadow;
+}
+.btn:HOVER {
+	box-shadow: 0px 3px 7px 1px #AAA;
+}
+.submit {
+	color: #FFF;
+	background-color: #5374E4;
+}
+.reset {
+	color: #888;
+	background-color: #E0E0E0;
+}
+
+.table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.table th, .table td {
+	padding: 5px;
+}
+table.bordered td, table.bordered th{
+	border: 1px solid #DDD;
+}
+table.striped tr:nth-child(odd) td, table.striped tr:nth-child(odd) th {
+	background-color: #F1F1F1;
+}
+.clear {
+	clear: both;
+}
+.pull-right {
+	float: right;
+}
+.pull-left {
+	float: left;
+}
